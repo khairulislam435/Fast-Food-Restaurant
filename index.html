@@ -1,0 +1,607 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1"/>
+	<meta name="keywords" content="bike, bicycle, bycylce in bangladesh "/>
+	<meta name="description" content="the website need to seo friendly then we add meta keywoeds , meta description, meta viewport , meta charset "/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+	<title>BD ONLINE FOOD SERVICE</title>
+
+	<!-- styleshetts -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="./images./logo.ico" />
+
+	<!--[if lt ie 9]> <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+<body>
+	<!-- header part start -->
+	<header class="header-image">
+		<!-- navbar start -->
+		<nav class="navbar navbar-inverse " id="scrolling" style="background:0">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+				  <img style="width: 166px;height: 82px;position:absolute;top: 12%;bottom:7%;padding-bottom:5px;" src="./images/logo.jpg" alt="logo" title="BD Online Food Services">
+		      </a>
+		    </div>
+			  <!---->
+		    <div class="collapse navbar-collapse menu" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class=""><a href="index.html">Home</a></li>
+		        <li id="lol" ><a href="#">Food Menu<span class="caret"></span></a>
+					<ul id="wow">
+						<li><a href="fastfood.html">Fast Food</a></li>
+				        <li><a href="birthday.html">Birthday Cake</a></li>
+				        <li><a href="drink.html">Drinks Item</a></li>
+						<li><a href="brakfirst.html">Break fast Food</a></li>
+					</ul>
+		        </li>
+			    <li><a href="price.html">Price</a></li>
+		        <li><a href="about.html">About Us</a></li>
+		        <li><a href="contact.html">Contact US</a></li>
+		        <li ><a  style="border:1px solid white;padding:10px 10px;margin-top:13px" href="#" data-toggle="modal" data-target="#myModal1"></span> Register Now</a></li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal2">Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		  <div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+     <!--Modal content-->
+    <div class="modal-content">
+
+        <form id="regestration">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Register Form </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                    <input type="text" id="defaultFrom-name" class="form-control validate" placeholder="Your name" required>
+                    <span id="nameError"></span>
+                </div>
+                <br>
+                <div class="md-form mb-5">
+                    <input type="number" id="defaultFrom-phone" class="form-control validate" placeholder="Phone Number" required>
+                    <span id="phoneError"></span>
+                </div>
+                <br>
+                <div class="md-form mb-5">
+                    <input type="email" id="defaultFrom-email" class="form-control validate" placeholder="Your Email" required>
+                    <span id="emailError"></span>
+                </div>
+                <br>
+                <div class="md-form mb-5">
+                    <input type="text" id="defaultFrom-address" class="form-control validate" placeholder="Address" required>
+                    <span id="addressError"></span>
+                </div>
+                <br>
+                <div class="md-form mb-4">
+                    <input type="password" id="defaultFrom-pass" class="form-control validate" placeholder="Your password" required>
+                </div>
+                <br>
+                <div class="md-form mb-4">
+                    <input type="password" id="defaultFrom-conpass" class="form-control validate" placeholder="Confirm password" required>
+                </div>
+
+                <div class="modal-footer text-center">
+                    <button class="btn btn-success btn-lg text-center">submit</button>
+                </div>
+            </div>
+        </form>
+        </div>
+  </div>
+</div>
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+      <div class="modal-content">
+      <form id="login">
+          <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-content">
+              <div class="modal-body mx-3">
+                  <div class="md-form mb-5">
+                      <input type="email" id="defaultFrom-email" class="form-control validate" placeholder="Your Email" required>
+                      <span id="emailError"></span>
+                  </div>
+                  <br>
+                  <div class="md-form mb-4">
+                      <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Enter your Password" required>
+                  </div>
+                  <div class="md-form mb-4">
+                      <input type="checkbox" id="defaultForm-show">Show
+                  </div>
+              </div>
+              <div class="modal-footer ">
+                  <input type="submit" id="submitBtn" class="btn btn-success" value="Login">
+              </div>
+          </div>
+      </form>
+        </div>
+  </div>
+</div>
+		<div class="header-feature">
+				<div class="header-text text-center">
+					<h2>BD ONLINE FOOD SERVICE</h2>
+					<a href="" style="font-size:23px;color:white;text-decoration: none">Call Now : 01735960181</a>
+				</div>
+				<div class="header-search">
+				  <div class="col-md-2"></div>
+				  <div class="col-md-8">
+				     <div class="form-group all-input">
+					    <select>
+					    	<option value="">Please select area</option>
+					    	<option value="Farmegate">Farmegate</option>
+					    	<option value="Dhanmondi">Dhanmondi</option>
+					    	<option value="Symoli">Symoli</option>
+					    	<option value="Gulistan">Gulistan</option>
+							<option value="Gulistan">Badda</option>
+							<option value="Gulistan">Baridhara</option>
+					    </select>
+					    <select>
+					    	<option value="">Please select Food Item</option>
+					    	<option value="">Fast Food</option>
+					    	<option value="">Birth Day cake</option>
+					    	<option value="">Drinks Item</option>
+					    	<option value="">Breakfast Food</option>
+					    </select>
+					    <input type="submit" value="Search">
+					  </div>
+				  </div><!-- /.col-lg-6 -->
+				  <div class="col-md-offset-2"></div>
+
+				</div>
+		</div>
+	</header>
+
+	<!-- header part end -->
+
+
+	<!-- menu area -->
+	<section class="service" style="padding:50px 0">
+		<div class="container">
+			<div class="row">
+				<h2 class="text-center" style="padding:20px 0;color: white;font-size:30px;font-family: OpenSans-Semibold;text-transform: uppercase;">***Our Menu***</h2>
+				<div class="col-md-4">
+					<div class="order">
+						<img src="images/1.jpg" style="height:200px" alt="Avatar" class="image">
+						 <div class="overlay">
+						   <div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+						   </div>
+						 </div>
+						 <div class="panel panel-default text-center" style="margin-top:0">
+					 		<h4 style="padding:10px 0">Burgur</h4>
+					 </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="order">
+						<img src="images/4.jpg" style="height:200px" alt="Avatar" class="image">
+						<div class="overlay">
+							<div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+							</div>
+						</div>
+						<div class="panel panel-default text-center" style="margin-top:0">
+							<h4 style="padding:10px 0">Nudules</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="order">
+						<img src="images/pizza.jpg" style="height:200px" alt="Avatar" class="image">
+						<div class="overlay">
+							<div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+							</div>
+						</div>
+						<div class="panel panel-default text-center" style="margin-top:0">
+							<h4 style="padding:10px 0">Pizza</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="order">
+						<img src="images/p10.gif" style="height:200px" alt="Avatar" class="image">
+						<div class="overlay">
+							<div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+							</div>
+						</div>
+						<div class="panel panel-default text-center" style="margin-top:0">
+							<h4 style="padding:10px 0">Drinks</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="order">
+						<img src="images/p11.png" style="height:200px" alt="Avatar" class="image">
+						<div class="overlay">
+							<div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+							</div>
+						</div>
+						<div class="panel panel-default text-center" style="margin-top:0">
+							<h4 style="padding:10px 0">Drinks</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="order ">
+						<img src="images/p6.jpeg" style="height:200px" alt="Avatar" class="image">
+						<div class="overlay">
+							<div class="text" ><a href="invoice.html" style="padding:10px 20px;border:1px solid white;color:white;text-decoration: none">Confirm</a><br><br>
+								<span>Order Now</span>
+							</div>
+						</div>
+						<div class="panel panel-default text-center" style="margin-top:0">
+							<h4 style="padding:10px 0">Burgur</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- some thing about our services -->
+<section class="serv">
+	<div class="container">
+		<div class="row">
+			<div class="bg-serve">
+				<div class="col-md-9">
+					<div class="serv-text">
+						<h2 style="color: white;font-size:30px;font-family: OpenSans-Semibold;text-transform: uppercase;">Our Client Says</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ea eum, ex fugiat hic inventore, nam nihil officia possimus provident quam quis recusandae repudiandae velit veritatis voluptate voluptatem voluptatum. Omnis.</p>
+						<a href="">Learn More <spna class="fa fa-arrow-right"></spna></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img src="./images./client-happy.jpg" style="    width: 300px; height: 318px;margin-left: -23px; margin-top: 65px; alt="">
+				</div>
+			</div>
+			<div class="handy-call col-md-12" >
+				<div class="col-md-6">
+					<h4 style="color:white">GET ANYTHING DONE IN JUST ONE MINUTE!  </h4>
+				</div>
+				<div class="col-md-6  serv-tell-book">
+					<ul >
+						<li><a href="" class="smart1">Call Now</a></li>
+						<li><a href="" class="smar"><i class="fa fa-phone"></i></a></li>
+						<li><a href="" class="smart">Order Now</a></li>
+						<li><a href="" class="smart2"><i class="fa fa-ticket"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+
+<!-- best sell -->
+<section class="section-default">
+        <div class="container">
+            <div class="col-md-6">
+                 <div class="best-sell">
+                     <h2>Our Best sell in 2017-2018</h2>
+                     <div class="news-slick">
+                        <div class="news-item">
+                         <a href="#">
+                           <div class="news-clock">
+                               <h4>January</h4>
+                               <h3>06</h3>
+                           </div>
+                           <div class="news-details">
+                                <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
+                           </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="news-item">
+                         <a href="#">
+                           <div class="news-clock">
+                               <h4>February</h4>
+                               <h3>06</h3>
+                           </div>
+                           <div class="news-details">
+                                <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
+                           </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="news-item">
+                         <a href="#">
+                           <div class="news-clock">
+                               <h4>March</h4>
+                               <h3>06</h3>
+                           </div>
+                           <div class="news-details">
+                                <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
+                           </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="news-item">
+                         <a href="#">
+                           <div class="news-clock">
+                               <h4>April</h4>
+                               <h3>06</h3>
+                           </div>
+                           <div class="news-details">
+                                <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
+                           </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="news-item">
+                         <a href="#">
+                           <div class="news-clock">
+                               <h4>November</h4>
+                               <h3>06</h3>
+                           </div>
+                           <div class="news-details">
+                                <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
+                           </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+                     </div>
+
+                      <a href="#" class="news-info" style="background-color: #7f234b;color:white;text-decoration:none;padding:7px 10px;border-radius:3px">Read More<i class="fa fa-angle-right"></i></a>
+                 </div> <!--news-event end-->
+
+
+            </div><!--col-sm-6 end-->
+
+            <div class="col-md-6">
+                 <div class="news-event">
+                     <h2>All Time Top Rated Food</h2>
+                      <div class="news-right">
+                          <div class="right-item">
+                           <a href="#" >
+                              <div class="news-clock">
+                              <img class="img-responsive" src="./images/1.jpg" alt="">
+                               </div>
+                               <div class="news-details" >
+                              <h5>29, March, 2018 <span style="color:red;font-size:15px">***</span></h5>
+                               <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry...</p>
+                              </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="right-item">
+                           <a href="#">
+                              <div class="news-clock">
+                              <img class="img-responsive" src="./images/3.jpg" alt="">
+                               </div>
+                               <div class="news-details">
+                              <h5>29, March, 2018 <span style="color:red;font-size:15px">***</span></h5>
+                               <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry...</p>
+                              </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="right-item">
+                           <a href="#">
+                              <div class="news-clock">
+                              <img class="img-responsive" src="images/4.jpg" alt="">
+                               </div>
+                               <div class="news-details">
+                               <h5>29, March, 2018 <span style="color:red;font-size:15px">***</span></h5>
+                               <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ...</p>
+                              </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div>
+
+                       <div class="right-item">
+                           <a href="#">
+                              <div class="news-clock">
+                              <img class="img-responsive" src="./images/5.jpg" alt="">
+                               </div>
+                               <div class="news-details">
+                               <h5>29, March, 2018 <span style="color:red;font-size:15px">**</span></h5>
+                               <p style="text-decoration:none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ...</p>
+                              </div>
+                           <div class="clearfix"></div>
+                         </a>
+                       </div><!--news-item end-->
+                    </div><!--news-right end-->
+                     <a href="#" class="news-info" style="background-color: #7f234b;color:white;text-decoration:none;padding:7px 10px;border-radius:3px">Read More<i class="fa fa-angle-right"></i></a>
+                 </div>
+            </div><!--col-sm-6 end-->
+
+        </div>
+</section>
+
+
+
+<!-- why WE -->
+<section class="why-we">
+	<div class="lol">
+	<div class="container">
+		<div class="row">
+			<h2 style="color:white;font-size:30px;font-family: OpenSans-Semibold;text-transform: uppercase;" class="text-center">Why We Best</h2>
+
+			<div class="col-md-4">
+				<div class="panel" style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body money" style="margin-top:0">
+				    	<h2>Saves Money</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel" style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body times">
+						<h2>Saves Times</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel " style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body help" style="border-bottom:5px red">
+						<h2>Instant Help</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel " style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body quality">
+				    	<h2>Best Quality</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel " style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body easy" >
+						<h2>Easy & Secured</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel " style="background:transparent;color:white;margin-top:30px">
+				    <div class="panel-body satisfied" >
+						<h2>100% Satisfaction</h2>
+				    	<p style="border-bottom:10px solid red;padding-bottom:10px">You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day!
+				    	You Pay as you go. Pay hourly. Pay us what you hired for. Not for the whole day! </p>
+				     </div>
+				 </div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+	<!--our top and happycustomer-->
+<section class="happy-customers">
+	<div class="container">
+		<div class="row">
+			<h2 class="text-center" style="padding:20px 0;color:white;font-size:30px;font-family: OpenSans-Semibold;text-transform: uppercase;">our top and happy Customer</h2>
+			<div class="col-md-4">
+				<a href=" " style="text-decoration:none">
+					<div class="panel panel-default" style="margin-top:10px">
+					  <div class="panel-body" >
+							<img style="width:100%;max-height:200px" src="./images/happ1.jpg" alt="">
+					  </div>
+					  <div class="panel-footer text-center" >Mr.Jon*****</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="" style="text-decoration:none">
+					<div class="panel panel-default" style="margin-top:10px">
+					  <div class="panel-body">
+					  	<img style="width:100%;max-height:200px" src="images/happ12.jpg" alt="">
+					  </div>
+					  <div class="panel-footer text-center" >Mr.Denial****</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="" style="text-decoration:none">
+					<div class="panel panel-default" style="margin-top:10px">
+					  <div class="panel-body">
+					  	<img style="width:100%;max-height:200px" src="./images/happ3.jpg" alt="">
+					 </div>
+					  <div class="panel-footer text-center">Mr.Smith***</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<!--footer-->
+	<footer>
+       <div class="container">
+           <div class="col-sm-3">
+               <div class="footer-details">
+                   <h2>Central Office:</h2>
+                   <ul>
+                       <li> House 3/D, Road 2/A, Block J,Jhigatala </li>
+                       <li><span>Tele: 9834734,9834734,9834734,</span><span>9834734,9834734-20 &amp; 9834734</span></li>
+                       <li><span>Fax: (+88 02) 8813141</span> <span> Email: info@bdfood.service.com</span></li>
+                       <li>
+                           <b><a href=""><i class="fa fa-facebook"></i></a></b>
+                           <b><a href=""><i class="fa fa-twitter"></i></a></b>
+                           <b><a href=""><i class="fa fa-google-plus"></i></a></b>
+                       </li>
+                   </ul>
+               </div>
+           </div><!--col-sm-3 end-->
+
+           <div class="col-sm-3">
+               <div class="footer-details">
+                   <h2>Sub Office Address:</h2>
+                   <ul>
+                       <li>
+                           <span>Busandhara,1212</span>
+                           <span>Road 8 &amp; 9, Sector 1,</span>
+                           <span>Gulashan, 2</span>
+                           <span>Dhaka 1230</span>
+                        </li>
+                       <li><span>Junior campus,Uttara, Plot 1, Road </span><span>21, Sector 4, Uttara Model Town,</span> Dhaka 1230</li>
+                   </ul>
+               </div>
+           </div><!--col-sm-3 end-->
+
+
+           <div class="col-sm-3">
+               <div class="footer-details">
+                   <h2>Sub Office Address:</h2>
+                   <ul>
+					   <li>
+						   <span>Busandhara,1212</span>
+						   <span>Road 8 &amp; 9, Sector 1,</span>
+						   <span>Gulashan, 2</span>
+						   <span>Dhaka 1230</span>
+					   </li>
+                   </ul>
+               </div>
+           </div><!--col-sm-3 end-->
+
+
+           <div class="col-sm-3">
+               <div class="low-to-high"><a href="#"><i class="fa fa-angle-up"></i></a></div>
+           </div><!--col-sm-3 end-->
+       </div>
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+
+</body>
+</html>
